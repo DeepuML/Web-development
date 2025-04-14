@@ -1,0 +1,11 @@
+.container{
+    border: 2px solid green;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+
+}
+.box{
+    border: 1px solid blue;
+}

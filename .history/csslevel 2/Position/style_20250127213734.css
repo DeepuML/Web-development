@@ -1,0 +1,17 @@
+/* p{
+    position: static;
+} */
+ 
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    color:red;
+}
+.box{
+   
+    position: relative;
+    border:10px solid black;
+    left=10px;
+    right=20px;
+ }

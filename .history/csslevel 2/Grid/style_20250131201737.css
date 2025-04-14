@@ -1,0 +1,11 @@
+.container{
+    background-color: brown;
+    height: 400px;
+    width: 370px;
+    border: 2px solid black;
+}
+
+.box{
+    background-color:aqua;
+
+}

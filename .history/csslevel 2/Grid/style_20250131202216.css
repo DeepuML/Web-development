@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: brown;
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    display: grid;
+}
+
+.box{
+    background-color:aqua;
+    border: 1px solid green;
+
+}

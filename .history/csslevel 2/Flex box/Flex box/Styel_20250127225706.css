@@ -1,0 +1,9 @@
+.conatiner{
+    height: 500px;
+    border: 2px solid green;
+    display: flex;
+    flex-direction:column;}
+.box{
+    border: 1px solid red;
+
+}

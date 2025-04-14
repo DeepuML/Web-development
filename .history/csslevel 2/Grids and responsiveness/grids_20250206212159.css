@@ -1,0 +1,14 @@
+.container{
+    background-color:yellow;
+    height:900px;
+    width:700px;
+    border:1px solid red;
+
+    display: grid;
+}
+.box{
+    border: 1px solid aqua;
+    background-color:green;
+    height:200px;
+   
+}

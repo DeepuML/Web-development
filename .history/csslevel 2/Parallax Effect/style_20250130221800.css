@@ -1,0 +1,11 @@
+#wrapper{
+    height: 100 vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.conatiner{
+    display: flex;
+    
+}

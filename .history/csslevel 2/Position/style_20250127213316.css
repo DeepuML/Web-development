@@ -1,0 +1,13 @@
+/* p{
+    position: static;
+} */
+ 
+div{
+    border: 10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+ }

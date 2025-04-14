@@ -1,0 +1,19 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+.container{
+    background-color: brown;
+    height: 500px;
+    border: 3px solid black;
+    display: grid;
+}
+
+.box{
+    background-color:aqua;
+    border: 1px solid green;
+    height: 80px;
+    width: 80px;
+
+}

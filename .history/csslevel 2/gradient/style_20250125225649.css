@@ -1,0 +1,19 @@
+.box{
+border:1px solid black;
+height:200px;
+width: 150px;
+background-image:linear-gradient(red,rgb(39, 16, 212)) ;
+background-image:linear-gradient(to right,red,black) ;
+background-image:linear-gradient(to left,red,black) ;
+background-image:linear-gradient(to top,red,black) ;
+background-image:linear-gradient(to bottom,red,rgb(14, 18, 219),green) ;
+background-image:linear-gradient(to bottom right,red,pink) ;
+background-image:linear-gradient(to bottom left ,red,black,green) ;
+} 
+.mydiv{
+    border:1px solid black;
+    margin:10px ;
+    height: 150px;
+    width: 150px;
+    background-image: radial-gradient(pink, green);
+}

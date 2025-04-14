@@ -1,0 +1,13 @@
+.container{
+    background-color:yellow;
+    height:700px;
+    width:700px;
+    border:1px solid red;
+
+    display: grid;
+}
+.box{
+    border: 1px solid aqua;
+    height:200px;
+    width:300px;
+}

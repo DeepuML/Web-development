@@ -1,0 +1,15 @@
+.container{
+    background-color:yellow;
+    height:700px;
+    border:1px solid red;
+
+    display: grid;
+    grid-gap:10px;
+
+    grid-auto-rows:repeat(2,1fr);
+    grid-template-columns:repeat(4,1fr) ;
+}
+.box{
+    border: 1px solid black;
+    background-color:aqua;
+}

@@ -1,0 +1,18 @@
+.container{
+    background-color: yellow;
+    border: 1px solid brown;
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap:10px;
+
+    justify-content: start;
+}
+.box{
+    border:1px solid black;
+    background-color:aqua;
+}

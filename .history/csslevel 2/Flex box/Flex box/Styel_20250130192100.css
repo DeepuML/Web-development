@@ -1,0 +1,18 @@
+.container{
+    border: 2px solid green;
+    height:400px;
+    display: flex;
+    /* flex-direction: column;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-wrap: nowrap; */
+    flex-wrap: wrap-reverse;
+}
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}

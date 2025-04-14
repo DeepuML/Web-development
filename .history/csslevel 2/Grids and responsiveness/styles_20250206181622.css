@@ -1,0 +1,18 @@
+.conatiner{
+    height:700px;
+    border: 1ps solid red;
+    background-color: yellow;
+
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-gap: 1cm;
+}
+
+.box{
+    border: 1px solid green;
+    background-color:aqua;
+    height: 100px;
+    width: 100px;
+}
+

@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+    height: 200px;  /* Fixed typo here */
+    background-color: yellow;
+    border: 2px solid red;
+}
+
+.box {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    
+    animation-name: deepu;
+    animation-duration: 3s;
+    animation-iteration-count: 4;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    /* animation-direction: alternate; */
+    animation-fill-mode: backwards;
+}
+
+/* Example of a commented-out keyframes with an error (if used, correct 'form' to 'from')
+@keyframes deepu {
+    from {
+        width: 200px;
+        height: 200px;
+    }
+    to {
+        width: 800px;
+        height: 100px;
+    }
+}
+*/
+
+@keyframes deepu {
+    0% {
+        width: 212px;
+        background-color: orange;
+    }
+    50% {
+        width: 35%;
+        background-color: white;
+    }
+    100% {
+        width: 70%;
+        background-color: green;
+    }
+}

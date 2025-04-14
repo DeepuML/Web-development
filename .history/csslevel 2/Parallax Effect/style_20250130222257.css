@@ -1,0 +1,24 @@
+#wrapper{
+    height: 100 vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.conatiner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: -1;
+    transform-style: preserve-3d;
+
+}
+.background, .foreground{
+    position: absolute;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+
+}
